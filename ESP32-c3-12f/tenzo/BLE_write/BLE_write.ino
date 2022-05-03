@@ -33,6 +33,7 @@ class MyCallbacks: public BLECharacteristicCallbacks {
 void setup() {
   Serial.begin(115200);
 
+  Serial.println("if you read this msg code is working");
   Serial.println("1- Download and install an BLE scanner app in your phone");
   Serial.println("2- Scan for BLE devices in the app");
   Serial.println("3- Connect to MyESP32");
